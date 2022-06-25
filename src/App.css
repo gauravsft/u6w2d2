@@ -2,15 +2,15 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.groceryItemDiv{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 20%;
+  margin-top: 1%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.groceryItemDiv>h3{
+  margin: 0;
 }
 
 .App-header {
